@@ -1,0 +1,1 @@
+Welcome to the Netflix Clone created completely using React.js and Firebase for the backend
