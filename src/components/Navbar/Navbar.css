@@ -18,6 +18,7 @@
 }
 .navbar-left img{
   width: 110px;
+  margin-left: 15px;
 }
 .navbar-left ul{
   display: flex;
@@ -68,4 +69,7 @@
 .navbar .dropdown p{
   font-size: 13px;
   cursor: pointer;
+}
+.nav-dark{
+  background: #141414;
 }
