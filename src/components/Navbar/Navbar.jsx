@@ -6,13 +6,14 @@ import bell_icon from '../../assets/bell_icon.svg'
 import profile_img from '../../assets/profile_img.png'
 import dropdown_icon from '../../assets/caret_icon.svg'
 import { useRef } from 'react'
+import { logout } from '../../firebase'
 
 const Navbar = () => {
 
   const navRef = useRef();
   useEffect(()=>{
     window.addEventListener("scroll", ()=>{
-      if(window.scrollY>80){
+      if(window.scrollY>150){
         navRef.current.classList.add('nav-dark')
       }
       else{
@@ -42,7 +43,7 @@ const Navbar = () => {
           <img src={profile_img} alt="" className='profile'/>
           <img src={dropdown_icon} alt="" />
           <div className="dropdown">
-            <p>Sign Out Of Netflix</p>
+            <p onClick={()=>{logout()}}>Sign Out Of Netflix</p>
           </div>
         </div>
       </div>
