@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Login.css'
 import logo from '../../assets/logo.png'
 import background_img from '../../assets/background_banner.jpg'
-import {login, signup} from '../../firebase'
+import {login, signup} from '../../firebase.js'
 
 const Login = () => {
 
