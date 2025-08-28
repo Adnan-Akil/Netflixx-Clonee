@@ -1,5 +1,6 @@
 .hero{
   position: relative;
+  height: 100vh;
 }
 .banner-img{
   width: 100%;
@@ -59,4 +60,43 @@
 }
 .more-cards{
   padding-left: 2%;
+}
+@media (max-width: 1024px) {
+  .hero{
+    height: auto;
+  }
+  .banner-img{
+    height: auto;
+  }
+  .caption-img{
+    width: 50%;
+    max-width: 350px;
+  }
+  .hero-caption .titleCard{
+    display: none;
+  }
+  .hero-btns{
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .hero-caption{
+    padding: 4%
+  }
+  .banner-img{
+    min-height: 400px;
+  }
+  .caption-img{
+    display: none;
+  }
+  .hero-caption p{
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .hero-btns .btn img{
+    width: 20px;
+  }
+  .more-cards{
+    padding-left: 5%;
+  }
 }

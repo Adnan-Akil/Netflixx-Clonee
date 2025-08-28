@@ -13,7 +13,7 @@ const Home = () => {
     <div className='home'>
       <Navbar />
       <div className="hero">
-        <img src={hero_img} alt="" className='banner-img'/>
+        <img src={hero_img} alt="" className='banner-img'/> 
         <div className="hero-caption">
           <img src={hero_title} alt="" className='caption-img' />
           <p>Drivers, managers and team owners live life in the fast lane — both on and off the track — during each cutthroat season of Formula 1 racing.</p>
@@ -21,7 +21,7 @@ const Home = () => {
             <button className='btn'><img src={play_button} alt=""/>Watch Now</button>
             <button className='btn dark-btn'><img src={info_button} alt=""/>More Info</button>
           </div>
-          <Titlecard />
+          <Titlecard/>
         </div>
       </div>
       <div className="more-cards">

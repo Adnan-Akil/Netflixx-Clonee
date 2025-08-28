@@ -129,3 +129,12 @@
   cursor: pointer;
   color: white;
 }
+@media (max-width: 750px) {
+  .login{
+    padding: 15px;
+  }
+  .login-form{
+    padding: 20px;
+    margin-top: 150px;
+  }
+}
