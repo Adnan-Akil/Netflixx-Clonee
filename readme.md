@@ -2,6 +2,7 @@
 
 A responsive semi-functional Netflix clone built using React.js, styled-components, and Firebase for backend services. This project replicates some of the core functionalities of Netflix, providing users with an intuitive and immersive streaming experience.
 
+Check out the project hosted on Vercel @ https://netflixx-clonee-three.vercel.app/
 ---
 
 ## 🚀 Features
